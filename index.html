@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- P5 libraries -->
+		<script language="javascript" type="text/javascript" src="p5.js"></script>
+
+		<script language="javascript" type="text/javascript" src="p5.dom.min.js"></script>
+
+		<script language="javascript" type="text/javascript" src="p5.sound.min.js"></script>
+
+		<!-- A-Frame libraries -->
+		<script language="javascript" type="text/javascript" src="aframe.min.js"></script>
+
+		<script language="javascript" type="text/javascript" src="aframep5.js"></script>
+
+		<!-- P5 Sketch -->
+		<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+	</head>
+	<body>
+		<a-scene id="VRScene">
+
+			<a-assets id="VRAssets">
+				<img id="sky" src="images/sky.jpg"></img>
+				<img id="dirtfloor" src="images/dirt.jpg"></img>
+				<img id="blue" src="images/bluefavela.jpg"></img>
+				<img id="orange" src="images/orangefavela.jpg"></img>
+				<img id="green" src="images/greenfavela.jpg"></img>
+				<img id="yellow" src="images/yellowfavela.jpg"></img>
+				<img id="purple" src="images/purplefavela.jpg"></img>
+				<img id="stone" src="images/stonebrick.png"></img>
+				<a-asset id="flower_obj" src="images/archive/Flower.obj"></a-asset>
+				<a-asset id="flower_mtl" src="images/archive/Flower.mtl"></a-asset>
+
+			</a-assets>
+
+			<a-sky id="theSky"src="#sky" color="rgb(255,255,255)"> </a-sky>
+
+		</a-scene>
+
+	</body>
+</html>
